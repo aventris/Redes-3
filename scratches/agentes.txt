@@ -1,3 +1,3 @@
-localhost SNMPv1 161 grupo4cm1
-100.10.70.16 SNMPv1 161 grupo4cm1
-192.168.0.1 SNMPv1 161 grupo4cm1
+192.168.0.1 SNMPv1 161 casalocalhost SNMPv1 161 any
+fsdf SNMPv1 161 sadfas
+192.168.0.18 SNMPv1 161 Casa

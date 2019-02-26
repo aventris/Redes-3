@@ -4,7 +4,7 @@ def consultaSNMP(comunidad,host,oid):
     errorIndication, errorStatus, errorIndex, varBinds = next(
         getCmd(SnmpEngine(),
                CommunityData(comunidad),
-               UdpTransportTarget((host, 161)),
+               UdpTransportTarget((host, 1024)),
                ContextData(),
                ObjectType(ObjectIdentity(oid))))
 
